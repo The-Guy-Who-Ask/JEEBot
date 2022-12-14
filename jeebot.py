@@ -13,7 +13,7 @@ randomPImageUrl = "https://picsum.photos/1200"
 date_format = "%m/%d/%Y"
 jeedat = dt(2023,1,26)
 
-updater = Updater("5836658304:AAEjge6nbuAVmLPNJRFKIoAhrXsVvCmOSx8",
+updater = Updater("5974057176:AAFq0Scy5AVjTzDM5Z-OWmgAX86-94IeQTY",
 				use_context=True)
 
 def start(update: Update, context: CallbackContext):
