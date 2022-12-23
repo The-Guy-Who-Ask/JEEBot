@@ -26,7 +26,7 @@ def Timer(update: Update, context: CallbackContext):
 	leday = jeedat-fdat
 
 	image = get(randomPImageUrl).content
-	context.bot.sendMediaGroup(chat_id=update.effective_chat.id, media=[InputMediaPhoto(image, caption="Days To JEE 2023 : {}".format(leday.days))])
+	context.bot.sendMediaGroup(chat_id=update.effective_chat.id, media=[InputMediaPhoto(image, caption="Days To JEE 2024 : {}".format(leday.days))])
 
 def studytime(update: Update, context: CallbackContext):
 	now = dt.now()
