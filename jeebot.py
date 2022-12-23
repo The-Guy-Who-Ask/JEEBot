@@ -11,7 +11,7 @@ from datetime import datetime as dt
 randomPImageUrl = "https://picsum.photos/1200"
 
 date_format = "%m/%d/%Y"
-jeedat = dt(2023,1,26)
+jeedat = dt(2024,1,1)
 
 updater = Updater("5974057176:AAFq0Scy5AVjTzDM5Z-OWmgAX86-94IeQTY",
 				use_context=True)
